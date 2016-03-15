@@ -1,3 +1,3 @@
-if filereadable(".dotfiles/.vimrc")
-    so .dotfiles/.vimrc
+if filereadable($HOME . '/.dotfiles/.vimrc')
+    so $HOME/.dotfiles/.vimrc
 endif
